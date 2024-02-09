@@ -61,8 +61,7 @@ Este projeto depende da seguinte biblioteca:
 - [CJAVal](https://www.mql5.com/en/code/13663) - Serialização e Desserialização JSON (MQL nativo
 
 ## 📄 Documentação
-A documentação completa das funções na biblioteca em breve estará disponível
-
+A [documentação](https://joaopedrodev.notion.site/WebRequest-MQL5-221944146357478b9a01ade899e2531b) completa das funções da biblioteca está disponível e em construção, mas já pode ser acessada.
 
 ## 🤝 Contribuindo
 
