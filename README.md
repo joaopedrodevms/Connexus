@@ -55,11 +55,6 @@ REQUEST  | GET - https://api.binance.com:443/api/v3/avgPrice?symbol=BTCUSDT
 RESPONSE | {"mins":5,"price":"45358.93311660","closeTime":1707438768533}
 ```
 
-## 🔗 Dependências
-Este projeto depende da seguinte biblioteca:
-
-- [CJAVal](https://www.mql5.com/en/code/13663) - Serialização e Desserialização JSON (MQL nativo
-
 ## 📄 Documentação
 A [documentação](https://joaopedrodev.notion.site/Connexus-221944146357478b9a01ade899e2531b) completa das funções da biblioteca está disponível e em construção, mas já pode ser acessada.
 
