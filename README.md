@@ -1,8 +1,8 @@
-# WebRequest-MQL5
+# Connexus
 
-A WebRequest-MQL5 é uma biblioteca em MQL5 que oferece uma interface simples e eficaz para comunicação com servidores web utilizando o protocolo HTTP. Com esta biblioteca, os desenvolvedores podem facilmente realizar solicitações HTTP GET, POST, PUT, DELETE e outras, além de poderem enviar e receber dados de forma segura e eficiente. 
+A Connexus é uma biblioteca em MQL5 que oferece uma interface simples e eficaz para comunicação com servidores web utilizando o protocolo HTTP. Com esta biblioteca, os desenvolvedores podem facilmente realizar solicitações HTTP GET, POST, PUT, DELETE e outras, além de poderem enviar e receber dados de forma segura e eficiente. 
 
-Tornando a integração de aplicativos de negociação algorítmica com serviços web externos fácil. Com uma interface intuitiva e documentação abrangente, a WebRequest-MQL5 simplifica o processo de comunicação com servidores web, proporcionando aos desenvolvedores MQL5 uma poderosa ferramenta para acesso remoto a dados e serviços web.
+Tornando a integração de aplicativos de negociação algorítmica com serviços web externos fácil. Com uma interface intuitiva e documentação abrangente, a Connexus simplifica o processo de comunicação com servidores web, proporcionando aos desenvolvedores MQL5 uma poderosa ferramenta para acesso remoto a dados e serviços web.
 
 A biblioteca e compostar por uma arquitetura que permite realizar mocks de cada classe, assim tornando possivel a realização de testes unitários, sem depender de respostas dos pedidos HTTP.
 
@@ -19,7 +19,7 @@ A biblioteca e compostar por uma arquitetura que permite realizar mocks de cada 
 2. Navegue até `MQL5/Includes`
 1. Clone o projeto dentro da pasta `/Includes` do seu Terminal Metatrader5
 ``` shell
-git clone https://github.com/github-joao-pedro/WebRequest-MQL5.git
+git clone https://github.com/github-joao-pedro/Connexus.git
 ```
 
 
@@ -27,7 +27,7 @@ git clone https://github.com/github-joao-pedro/WebRequest-MQL5.git
 
 Aqui está um exemplo simples de como utilizar a biblioteca para fazer uma solicitação HTTP GET para a API Binance
 ``` c++
-#include <WebRequest-MQL5/Http/HttpClient.mqh>
+#include <Connexus/Http/HttpClient.mqh>
 
 void OnStart()
   {
@@ -61,7 +61,7 @@ Este projeto depende da seguinte biblioteca:
 - [CJAVal](https://www.mql5.com/en/code/13663) - Serialização e Desserialização JSON (MQL nativo
 
 ## 📄 Documentação
-A [documentação](https://joaopedrodev.notion.site/WebRequest-MQL5-221944146357478b9a01ade899e2531b) completa das funções da biblioteca está disponível e em construção, mas já pode ser acessada.
+A [documentação](https://joaopedrodev.notion.site/Connexus-221944146357478b9a01ade899e2531b) completa das funções da biblioteca está disponível e em construção, mas já pode ser acessada.
 
 ## 🤝 Contribuindo
 
@@ -71,7 +71,7 @@ Sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull r
 
 ## 📝Licença
 
-A biblioteca WebRequest-MQL5 é lançada sob a licença do MIT. Consulte [LICENSE](./LICENSE) para obter detalhes.
+A biblioteca Connexus é lançada sob a licença do MIT. Consulte [LICENSE](./LICENSE) para obter detalhes.
 
 
 
